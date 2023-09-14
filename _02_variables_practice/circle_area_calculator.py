@@ -13,12 +13,12 @@ if __name__ == '__main__':
     
     # Ask the user for the radius in pixels and store it in a variable
     # simpledialog.askinteger()
-    
+    radius = simpledialog.askstring(title= None, prompt= 'tell me a radius')
     # Make a new turtle
-    
+    bob = turtle.turtles
     # Have your turtle draw a circle with the correct radius
     # my_turtle.circle()
-
+    bob.circle()
     # Call the turtle .penup() method
 
     # Move your turtle to a new x,y position using .goto()
